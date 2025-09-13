@@ -1,7 +1,6 @@
-First type
-npm install 
-in your cmd or powershell
-
+# First type
+# 'npm install' 
+# in your cmd or powershell
 
 
 
