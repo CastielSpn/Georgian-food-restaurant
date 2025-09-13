@@ -1,3 +1,13 @@
+First type
+npm install 
+in your cmd or powershell
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
