@@ -1,0 +1,272 @@
+.home {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #8B0000, #DC143C);
+  color: white;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  min-height: 60vh;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-family: 'Art Nouveau', cursive;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-family: 'Art Nouveau', cursive;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 500px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* About Section */
+.about {
+  padding: 4rem 0;
+  background: #2a2a2a;
+}
+
+.about h2 {
+  font-family: 'Art Nouveau', cursive;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #8B0000;
+  font-weight: 600;
+}
+
+.about-content {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text p {
+  font-family: 'Art Nouveau', cursive;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+  font-weight: 400;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.feature {
+  text-align: center;
+  padding: 1.5rem;
+  background: #3a3a3a;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.feature h3 {
+  font-family: 'Art Nouveau', cursive;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #8B0000;
+  font-weight: 600;
+}
+
+.feature p {
+  font-family: 'Art Nouveau', cursive;
+  font-size: 0.9rem;
+  color: #b0b0b0;
+  margin: 0;
+  font-weight: 400;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 500px;
+}
+
+.about-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Popular Dishes */
+.popular-dishes {
+  padding: 4rem 0;
+  background: #1a1a1a;
+}
+
+.popular-dishes h2 {
+  font-family: 'Art Nouveau', cursive;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #8B0000;
+  font-weight: 600;
+}
+
+.dishes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.dish-card {
+  background: #3a3a3a;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.dish-card:hover {
+  transform: translateY(-5px);
+}
+
+.dish-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.dish-card h3 {
+  font-family: 'Art Nouveau', cursive;
+  padding: 1rem 1rem 0.5rem;
+  font-size: 1.3rem;
+  color: #8B0000;
+  margin: 0;
+  font-weight: 600;
+}
+
+.dish-card p {
+  font-family: 'Art Nouveau', cursive;
+  padding: 0 1rem 1rem;
+  color: #b0b0b0;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Contact Info */
+.contact-info {
+  padding: 4rem 0;
+  background: #8B0000;
+  color: white;
+}
+
+.contact-info h2 {
+  font-family: 'Art Nouveau', cursive;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.contact-item {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.contact-item h3 {
+  font-family: 'Art Nouveau', cursive;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.contact-item p {
+  font-family: 'Art Nouveau', cursive;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+  }
+  
+  .about-content {
+    flex-direction: column;
+  }
+  
+  .about h2,
+  .popular-dishes h2,
+  .contact-info h2 {
+    font-size: 2rem;
+  }
+  
+  .features {
+    grid-template-columns: 1fr;
+  }
+  
+  .dishes-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
